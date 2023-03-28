@@ -22,3 +22,59 @@
             background-color: yellow;
             margin-top: 50px;
             margin-left: 0;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            width: 180px;
+            height: 150px;
+        }
+        h2{
+            text-transform: uppercase;
+            font-family: arial;
+            color: #00ffae;
+            border-color: red; 
+            border-style: dotted;
+            border-width: 5px;
+            padding: 25px;
+           
+        }
+        p{
+            font-variant: normal;
+            text-align: left; /* é left por padrão */
+            text-decoration: underline;
+            text-indent: 20px;
+            text-transform: none;
+            margin-bottom: 50px;
+        }
+         
+        .destaque{
+            color: red; /* identificado pelo id="destaque" */ 
+            background-color: yellow;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Estrutura basica</h1>
+        <h2>Subtitulo da página</h2>
+
+        <p>
+            Aprender front-end é crucial para aqueles que desejam se envolver no desenvolvimento web. 
+        Front-end refere-se à parte da interface do usuário com a qual os usuários interagem diretamente, 
+        como o design visual e a funcionalidade dos sites. Aprender front-end permite que você crie sites 
+        interativos e responsivos que se adaptem a diferentes dispositivos e necessidades dos usuários, 
+        aumentando sua capacidade de atrair e manter visitantes no site.</p>
+        <p class="destaque">
+             Além disso, o conhecimento em front-end pode melhorar a sua capacidade de comunicação e colaboração
+        com outros desenvolvedores web. Entender as principais tecnologias de front-end, como HTML, 
+        CSS e JavaScript, permite que você se comunique de forma mais eficaz com os membros da sua 
+        equipe, especialmente aqueles que trabalham em outras áreas de desenvolvimento. Isso pode 
+        ajudar a garantir que as mudanças e atualizações sejam feitas de maneira eficiente e eficaz.</p>
+        <p>
+            Por fim, aprender front-end é uma habilidade altamente valorizada no mercado de trabalho de 
+        tecnologia. Empresas de todos os tamanhos e setores precisam de desenvolvedores front-end para
+        projetar e construir sites e aplicativos. Portanto, ter habilidades em front-end pode aumentar 
+        suas chances de conseguir um emprego na área de tecnologia e potencialmente melhorar suas 
+        perspectivas de carreira a longo prazo.</p>
+    </body>
+</html>
