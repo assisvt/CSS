@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuário a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> Pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <!-- tipo de codificação, como acentos permitidos-->
+        <meta name="author" content="Vítor">
+        <meta name="description" content="lista de documentos">
+        <!-- pode ser o texto visto pelo usuário em uma busca do google-->
+        <meta name="keywords" content="html5, tecnologia">
+        <style> /* a página lê como CSS o que estiver em style */
+        body {
+            background-color: #ccc;
+        }
+        h1{
+            font-family:Arial, Helvetica, sans-serif; /* opções, caos o navegador n reconheça alguma dessas */
+            font-size: 40px;
+            font-style: normal;
+            font-variant: small-caps;
+            color: blueviolet; /* posso colocar cor RGB tbm */
+            background-color: yellow;
+            margin-top: 50px;
+            margin-left: 0;
